@@ -38,7 +38,7 @@
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/btnBgColor"
@@ -46,6 +46,7 @@
         android:textSize="18sp"
         android:text="SELECT DATE" />
     <TextView
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="27.01.2002"
@@ -61,18 +62,21 @@
         android:textColor="@color/lightGrey"
         android:textStyle="bold"
         android:textSize="20sp" />
+
     <TextView
+        android:id="@+id/tvAgeInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="140000"
         android:layout_marginTop="16dp"
+        android:text="140000"
         android:textColor="@color/textBlue"
-        android:textStyle="bold"
-        android:textSize="35sp" />
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selected Date"
+        android:text="Age in minutes"
         android:layout_marginTop="16dp"
         android:textColor="@color/lightGrey"
         android:textStyle="bold"
